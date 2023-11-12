@@ -3,7 +3,7 @@ CI Tooling
 
 Cross-platform compilation is handled using [cross](https://github.com/cross-rs/cross). 
 This is because cross ensures binaries will run on as many platforms as possible. 
-It also works-around various [bugs](https://github.com/rust-lang/rust-bindgen/issues/1229) 
+It also works around various [bugs](https://github.com/rust-lang/rust-bindgen/issues/1229) 
 in rust bind-gen that prevent us from simply using `--target` with cargo to cross-compile.
 
 We use custom extensions of the docker images provided by cross 
